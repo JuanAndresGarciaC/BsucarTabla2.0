@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		104F94401E9D786600923EC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F943F1E9D786600923EC4 /* AppDelegate.swift */; };
-		104F94421E9D786600923EC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F94411E9D786600923EC4 /* ViewController.swift */; };
 		104F94451E9D786600923EC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104F94431E9D786600923EC4 /* Main.storyboard */; };
 		104F94481E9D786600923EC4 /* BsucarTabla2_0.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 104F94461E9D786600923EC4 /* BsucarTabla2_0.xcdatamodeld */; };
 		104F944A1E9D786600923EC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 104F94491E9D786600923EC4 /* Assets.xcassets */; };
 		104F944D1E9D786600923EC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 104F944B1E9D786600923EC4 /* LaunchScreen.storyboard */; };
+		104F94551E9D78C900923EC4 /* TVCTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F94541E9D78C900923EC4 /* TVCTableViewController.swift */; };
+		104F94571E9D7A2D00923EC4 /* ControlLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104F94561E9D7A2D00923EC4 /* ControlLibro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		104F943C1E9D786600923EC4 /* BsucarTabla2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BsucarTabla2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		104F943F1E9D786600923EC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		104F94411E9D786600923EC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		104F94441E9D786600923EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		104F94471E9D786600923EC4 /* BsucarTabla2_0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BsucarTabla2_0.xcdatamodel; sourceTree = "<group>"; };
 		104F94491E9D786600923EC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		104F944C1E9D786600923EC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		104F944E1E9D786600923EC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		104F94541E9D78C900923EC4 /* TVCTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVCTableViewController.swift; sourceTree = "<group>"; };
+		104F94561E9D7A2D00923EC4 /* ControlLibro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlLibro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				104F943F1E9D786600923EC4 /* AppDelegate.swift */,
-				104F94411E9D786600923EC4 /* ViewController.swift */,
 				104F94431E9D786600923EC4 /* Main.storyboard */,
 				104F94491E9D786600923EC4 /* Assets.xcassets */,
 				104F944B1E9D786600923EC4 /* LaunchScreen.storyboard */,
 				104F944E1E9D786600923EC4 /* Info.plist */,
 				104F94461E9D786600923EC4 /* BsucarTabla2_0.xcdatamodeld */,
+				104F94541E9D78C900923EC4 /* TVCTableViewController.swift */,
+				104F94561E9D7A2D00923EC4 /* ControlLibro.swift */,
 			);
 			path = BsucarTabla2.0;
 			sourceTree = "<group>";
@@ -141,8 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				104F94481E9D786600923EC4 /* BsucarTabla2_0.xcdatamodeld in Sources */,
-				104F94421E9D786600923EC4 /* ViewController.swift in Sources */,
 				104F94401E9D786600923EC4 /* AppDelegate.swift in Sources */,
+				104F94571E9D7A2D00923EC4 /* ControlLibro.swift in Sources */,
+				104F94551E9D78C900923EC4 /* TVCTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
